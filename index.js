@@ -24,7 +24,7 @@ window.addEventListener("DOMContentLoaded", async (e) => {
         const task =  doc.data();
   
         tasksContainer.innerHTML += `
-        <div class="card card-body mt-2 border-primary">
+        <div class="card card-body border-primary">
       <h3 class="h5">${task.title}</h3>
       <p>${task.description}</p>
       <div>
